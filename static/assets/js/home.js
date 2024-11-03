@@ -6,7 +6,7 @@ try {
   inFrame = true;
 }
 if (!localStorage.getItem("ab")) localStorage.setItem("ab", true);
-if (
+/*if (
   !inFrame &&
   !navigator.userAgent.includes("Firefox") &&
   localStorage.getItem("ab") === "true"
@@ -54,6 +54,7 @@ if (
     doc.head.appendChild(script);
   }
 }
+  */
 // Particles
 document.addEventListener("DOMContentLoaded", event => {
   if (window.localStorage.getItem("Particles") === "true") {
